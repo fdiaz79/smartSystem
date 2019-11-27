@@ -2,6 +2,8 @@ import home from '../components/home.vue';
 import factura from '../components/factura.vue';
 import pedido from '../components/pedido.vue';
 import proveedores from '../components/proveedores.vue';
+import productos from '../components/productos.vue';
+
 
 export default [
     {
@@ -23,5 +25,10 @@ export default [
         path: '/proveedores',
         name: 'proveedores',
         component: proveedores
+    },
+    {
+        path: '/productos',
+        name: 'productos',
+        component: productos
     }
 ]

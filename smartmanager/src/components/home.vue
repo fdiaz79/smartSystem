@@ -17,8 +17,8 @@
                     <router-link to="/pedido"><b-button variant="success" class="btnLink" > Consultar Pedido </b-button></router-link>
                     <router-link to="/factura"><b-button variant="info" class="btnLink" > Consultar Factura </b-button></router-link>
                     <router-link to="/"><b-button variant="warning" class="btnLink" > Consultar Guia </b-button></router-link>
-                    <router-link to="/"><b-button variant="primary" class="btnLink" > Consultar Producto </b-button></router-link>
-                    <router-link to="/"><b-button variant="danger" class="btnLink" > Consultar Proveedor </b-button></router-link>
+                    <router-link to="/productos"><b-button variant="primary" class="btnLink" > Consultar Producto </b-button></router-link>
+                    <router-link to="/proveedores"><b-button variant="danger" class="btnLink" > Consultar Proveedores </b-button></router-link>
                 </b-button-group>
             </div>
             <div class="col-1 col-md-2 col-lg-3"></div>
